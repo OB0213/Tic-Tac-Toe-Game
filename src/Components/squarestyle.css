@@ -1,0 +1,54 @@
+.square{
+   position: relative;
+   height: 10vh;
+   width: 14vw;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 220%;
+   background: none;
+   border: none;
+   outline: none;
+}
+
+.classData{
+border-right: 2.7px solid black;
+border-bottom: 2.7px solid black;
+}
+
+.classData1{
+   border-right: 2.7px solid black;
+   border-bottom: 2.7px solid black;
+}
+.classData2{
+   border-bottom: 2.7px solid black;
+}
+
+.classData3{
+   border-bottom: 2.7px solid black;
+   border-right: 2.7px solid black;
+}
+
+.classData4{
+   border-right: 2.7px solid black;
+   border-bottom: 2.7px solid black;
+}
+.classData5{
+   border-bottom:2.7px solid black;
+}
+.classData6{
+   border-right: 2.7px solid black;
+}
+.classData7{
+   border-right: 2.7px solid black;
+}
+.reset{
+   margin-left: auto;
+   margin-right: auto;
+   display: block;
+   background-color: brown;
+   padding: 15px;
+   font-size: 20px;
+   color: white;
+   border-radius: 10px;
+}

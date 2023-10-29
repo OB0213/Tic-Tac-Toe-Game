@@ -1,5 +1,50 @@
+*{
+  margin: 0;
+  padding: 0;
+}
 .App {
+  height: 100vh;
+  width: 100vw;
+  overflow-y: auto;
+}
+
+.titledata{
   text-align: center;
+  color: brown;
+  text-shadow: 1.1px 1.1px 1.1px black;
+  font-size: 150%;
+  padding:20px ;
+}
+
+.mygame{
+ display: flex;
+ justify-content: center;
+ flex-direction: column;
+ width: 37vw;
+ margin-left: auto;
+ margin-right: auto;
+ margin-top: 25px;
+}
+
+.winnerStatus{
+  text-align: center;
+  font-size: 200%;
+  margin-top: 8vh;
+  margin-bottom: 20px;
+}
+
+.winner{
+  color: brown;
+  font-size: 200%;
+  text-shadow: 1.2px 1.2px 1.2px black;
+  text-align: center;
+  margin-top: 8vh;
+  margin-bottom: 20px;
+}
+
+.square-row{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
 }
 
 .App-logo {
